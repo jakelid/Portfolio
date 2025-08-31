@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "../personal-website/Portfolio"
+		},
+		{
+			"path": "../test/.github"
+		},
+		{
+			"path": "../test/node_modules"
+		},
+		{
+			"path": "../test/public"
+		},
+		{
+			"path": "../test/src"
+		}
+	],
+	"settings": {}
+}
