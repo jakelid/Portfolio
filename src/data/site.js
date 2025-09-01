@@ -2,47 +2,60 @@ const site = {
   name: "Jacob Lidstone",
   tagline: "CS Undergrad",
   skills: [
-    { name: "JavaScript (ES202x)", level: "advanced" },
-    { name: "React / Vite", level: "advanced" },
+    { name: "JavaScript", level: "advanced" },
+    { name: "React / Vite", level: "working" },
     { name: "HTML / CSS", level: "advanced" },
-    { name: "Node.js", level: "working" },
+    { name: "Node.js", level: "learning" },
     { name: "C++ / OpenGL", level: "working" },
-    { name: "Python", level: "working" },
+    { name: "Python", level: "advanced" },
     { name: "SQL / PostgreSQL", level: "working" },
     { name: "Git / GitHub", level: "advanced" },
     { name: "Docker", level: "learning" },
+    { name: "Java", level: "advanced" },
+    { name: "Spring", level: "learning" },
   ],
   experience: [
     {
-      role: "Finance Analyst Intern",
-      company: "Company A",
+      role: "Senior Cash Accountant",
+      company: "Videotron",
       location: "Montreal, QC",
       period: "May 2024 — Aug 2024",
       bullets: [
-        "Automated monthly profitability reports with Python; reduced cycle time by 60%.",
-        "Built dashboards & reconciled transactions with high data fidelity.",
+        "Worked with numerous internal systems to resolve issues and complete tasks.",
+        "Tasked with the training of new employees.",
       ]
     },
     {
-      role: "Software Projects (Academic)",
-      company: "University",
+      role: "Senior Cash Desk Attendant",
+      company: "Videotron",
       location: "Montreal, QC",
-      period: "2024 — Present",
+      period: "May 2023 — Aug 2023",
       bullets: [
-        "C++/OpenGL real‑time solar system with orbit physics and performance tuning.",
-        "Full‑stack web apps with clean architecture and testing mindset.",
+        "Responsible for customer account status and data processing using scripts.",
+        "Teamwork, issue resolution, and multitasking in a fast-paced environment.",
+      ]
+    },
+    {
+      role: "Senior Cash Desk Attendant",
+      company: "Videotron",
+      location: "Montreal, QC",
+      period: "May 2022 — Aug 2022",
+      bullets: [
+        "Responsible for customer account status and data processing using scripts.",
+        "Teamwork, issue resolution, and multitasking in a fast-paced environment.",
       ]
     }
   ],
   coursework: [
-    { code: "COMP 354", title: "Software Engineering" },
+    { code: "COMP 352", title: "Data Structures and Algorithms" },
     { code: "COMP 371", title: "Computer Graphics" },
     { code: "COMP 348", title: "Programming Languages" },
-    { code: "COMM 316", title: "Business Law & Ethics" },
-  ],
-  achievements: [
-    { title: "Dean’s List", org: "University", year: "2024", note: "Top academic standing among CS cohort." },
-    { title: "Hackathon Finalist", org: "Local Hack Day", year: "2025", note: "Built data‑driven app under 24h with a cross‑functional team." },
+    { code: "COMP 333", title: "Data Analytics" },
+    { code: "COMP 354", title: "Software Engineering" },
+    { code: "COMP 345", title: "Advanced Program Design" },
+    { code: "COMP 346", title: "Operating Systems" },
+    { code: "COMP 249", title: "Object Oriented Programming" },
+    { code: "ENCS 282", title: "Technical Writing" },
   ]
 }
 export default site

@@ -3,25 +3,25 @@ const projects = [
     title: "OpenGL Solar System",
     description: "Real‑time rendering of a solar system with orbit physics, skybox, and asteroid launcher. Focus on performance and clean architecture.",
     tags: ["C++", "OpenGL", "GLFW", "GLEW", "Graphics"],
-    links: { github: "https://github.com/yourhandle/planet-sim" }
+    links: { github: "" }
   },
   {
-    title: "SentiPulse — Watchlist & Sentiment Pulse",
-    description: "Spring Boot + React app that tracks equities/crypto, merges news/Reddit sentiment, and flags momentum shifts with watchlist alerts.",
-    tags: ["React", "Spring Boot", "PostgreSQL", "APIs", "NLP"],
-    links: { github: "https://github.com/yourhandle/sentipulse" }
+    title: "Spring Boot Watchlist & Headline Sentiment Tracker",
+    description: "Spring Boot REST API for watchlists, headline ingestion, and rolling 1/7-day sentiment scores with top/bottom leaderboards. Data seeded from CSV; includes caching, security, and H2 console.",
+    tags: ["Java", "Spring Boot", "JPA", "H2", "REST APIs"],
+    links: { github: "" }
   },
   {
-    title: "Pillow‑CLI Image Toolkit",
-    description: "Modular command‑line tool for batch edits (resize/convert/collage) with robust error handling and cross‑platform binaries.",
-    tags: ["Python", "CLI", "Pillow", "Automation"],
-    links: { github: "https://github.com/yourhandle/pillow-cli" }
+    title: "Python Brain Tumor Classifier",
+    description: "Python-based project analyzing MRI scans to classify presence of brain tumors. Leveraged NumPy, Pandas, Matplotlib, and Seaborn for preprocessing and visualization.",
+    tags: ["Python", "NumPy", "Pandas", "Matplotlib", "Seaborn", "Data Analysis"],
+    links: { github: "" }
   },
   {
     title: "Portfolio Website (This)",
     description: "Hand‑rolled React + Vite template with animated sections, theme toggle, and GitHub Pages deploy via Actions.",
     tags: ["React", "Vite", "GitHub Actions"],
-    links: { github: "https://github.com/yourhandle/cs-portfolio" }
+    links: { github: "" }
   }
 ]
 

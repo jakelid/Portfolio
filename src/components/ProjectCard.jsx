@@ -7,8 +7,10 @@ export default function ProjectCard({ p }){
       <div style={{display:'flex',justifyContent:'space-between',gap:10,alignItems:'center'}}>
         <h3 style={{margin:0}}>{p.title}</h3>
         <div style={{display:'flex',gap:8}}>
+          {/*
           {p.links?.github && <a className="btn secondary" href={p.links.github} target="_blank" rel="noreferrer"><FaGithub/>Code</a>}
           {p.links?.demo && <a className="btn" href={p.links.demo} target="_blank" rel="noreferrer"><FaExternalLinkAlt/>Demo</a>}
+          */}
         </div>
       </div>
       <p className="muted" style={{marginTop:6}}>{p.description}</p>

@@ -39,8 +39,8 @@ export default function Navbar() {
           {links.map(l => (
             <a key={l.id} href={`#${l.id}`} className={active===l.id ? 'active' : ''}>{l.label}</a>
           ))}
-          <a href="https://github.com/yourhandle" target="_blank" rel="noreferrer" title="GitHub"><FaGithub/></a>
-          <a href="https://linkedin.com/in/yourhandle" target="_blank" rel="noreferrer" title="LinkedIn"><FaLinkedin/></a>
+          <a href="https://github.com/jakelid" target="_blank" rel="noreferrer" title="GitHub"><FaGithub/></a>
+          <a href="https://linkedin.com/in/jacob-lidstone" target="_blank" rel="noreferrer" title="LinkedIn"><FaLinkedin/></a>
           <ThemeToggle />
         </div>
       </div>
