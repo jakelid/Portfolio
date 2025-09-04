@@ -10,7 +10,7 @@ export default function Hero(){
       <div className="container grid">
         <div>
           <h1>Hi, I’m <span style={{color:'var(--brand)'}}>{site.name}</span> — I build fast and reliable software.</h1>
-          <p className="muted">I’m drawn to systems that are clean behind the scenes and welcoming up front. Here’s a selection of projects, skills, and highlights.</p>
+          <p className="muted">I care about software that is internally solid yet simple on the outside. Below are a few projects and skills I’m most proud of.</p>
           <div style={{display:'flex',gap:10,marginTop:14}}>
             <a href={resumeEN} className="btn" download="EN_Jacob_Lidstone_Resume.pdf">Download Resume</a>
           </div>

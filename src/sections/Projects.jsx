@@ -7,7 +7,7 @@ export default function Projects(){
     <section id="projects" className="section">
       <div className="container">
         <h2>Projects</h2>
-        <p className="muted">A few favorites with concise writeups. Code links included.</p>
+        <p className="muted">Most notable projects.</p>
         <div className="cards">
           {list.map((p,i)=>(<ProjectCard key={i} p={p}/>))}
         </div>
