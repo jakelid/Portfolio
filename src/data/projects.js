@@ -1,14 +1,14 @@
 const projects = [
   {
-    title: "OpenGL Solar System",
-    description: "Real‑time rendering of a solar system with orbit physics, skybox, and asteroid launcher. Focus on performance and clean architecture.",
-    tags: ["C++", "OpenGL", "GLFW", "GLEW", "Graphics"],
+    title: "Log Analyzer",
+    description: "Used sample authentication and web-server logs to flag suspicious patterns such as repeated failed logins and brute-force attempts, summarizing results with dashboarding.",
+    tags: ["Python", "Pandas", "Regex", "Matplotlib"],
     links: { github: "" }
   },
   {
-    title: "Spring Boot Watchlist & Headline Sentiment Tracker",
-    description: "Spring Boot REST API for watchlists, headline ingestion, and rolling 1/7-day sentiment scores with top/bottom leaderboards. Data seeded from CSV; includes caching, security, and H2 console.",
-    tags: ["Java", "Spring Boot", "JPA", "H2", "REST APIs"],
+    title: "OpenGL Solar System",
+    description: "Real‑time rendering of a solar system with orbit physics, skybox, and asteroid launcher. Focus on performance and clean architecture.",
+    tags: ["C++", "OpenGL", "GLFW", "GLEW", "Graphics"],
     links: { github: "" }
   },
   {

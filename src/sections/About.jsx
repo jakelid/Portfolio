@@ -5,7 +5,7 @@ export default function About(){
     <section id="about" className="section">
       <div className="container">
         <h2>About</h2>
-        <p className="muted">I’m a 3rd year computer science student who likes creating maintainable and dependable software. Day to day I mainly build with Spring Boot, Java, Python, and C++. I keep it simple: choose solid data structures depending on the problem at hand, design clear APIs, and write code future-proof code.</p>
+        <p className="muted">I am a Computer Scientist and Developer with a unique foundation in Finance. Currently pursuing a Master's of Engineering in Information Systems Security, I specialize in building resilient, high-performance systems using Python, C++, and SQL. With professional roots in accounting and a passion for Fintech, I bridge the gap between financial integrity and technical defense to protect the digital infrastructures of tomorrow.</p>
       </div>
     </section>
   )
