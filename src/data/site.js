@@ -40,7 +40,8 @@ const site = {
       bullets: [
         "Processed 100+ transactions per day, while also maintaining accuracy by following guidelines",
         "Cut response and processing time from 3+ weeks to 1 day for account-status updates and bank transactions requests by improving request prioritization.",
-        "Communicated clearly with bank representatives and colleagues by documenting actions taken, trackingtask daily/weekly progress and providing updates to support task handoffs."
+        "Communicated clearly with bank representatives and colleagues by documenting actions taken, trackingtask daily/weekly progress and providing updates to support task handoffs.",
+        "Resolved exceptions and missing-information cases by investigating accounts and escalating unique cases to supervisors for faster closure."
       ]
     }
   ],

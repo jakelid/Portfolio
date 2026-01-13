@@ -5,7 +5,7 @@ export default function Experience(){
   return (
     <section id="experience" className="section">
       <div className="container">
-        <h2>Experience</h2>
+        <h2>Experiences</h2>
         <div className="cards">
           {site.experience.map((e,i)=>(
             <article key={i} className="card col-6">
